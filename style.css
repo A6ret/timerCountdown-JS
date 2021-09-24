@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(86, 117, 99);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.userSection {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.userA,
+.userB,
+.userC {
+    place-self: center;
+    color: white;
+}
+
+.countA,
+.countB,
+.countC {
+    border: 2px solid rgb(255, 255, 255);
+    color: greenyellow;
+    width: 140px;
+    height: 80px;
+    font-size: 2rem;
+    padding-top: 40px;
+}
+
+#btnA,
+#btnB,
+#btnC {
+    margin-top: 10px;
+    background-color: rgb(121, 151, 107);
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
+
+.btnTimer {
+    margin-top: 20px;
+}
+
+#btnAll {
+    padding: 5px;
+    background-color: wheat;
+    border-radius: 3px;
+    color: black;
+}
+
+#btnReset {
+    padding: 5px;
+    background-color: rgb(236, 120, 120);
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#btnA:hover,
+#btnB:hover,
+#btnC:hover {
+    background-color: rgb(141, 177, 125);
+    transition: .2s;
+}
+
+#btnAll:hover {
+    background-color: rgb(245, 229, 199);
+    transition: .2s;
+}
+
+#btnReset:hover {
+    background-color: rgb(238, 159, 159);
+    transition: .2s;
+}
